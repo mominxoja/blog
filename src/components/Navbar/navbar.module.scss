@@ -1,0 +1,28 @@
+
+
+.Navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__logo{
+        color: white;
+    }
+   
+    &__nav{
+        display: flex;
+        align-items: center;
+        &__active{
+            padding: 10px;
+            color: rgb(216, 208, 208);
+            margin: 0 20px;
+        }
+        &__passive{
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+    }
+   
+}

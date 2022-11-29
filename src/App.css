@@ -1,7 +1,22 @@
 .App {
-  text-align: center;
+ text-align: center;
 }
-
+.darkmode{
+  border: none;
+  background-color: transparent;
+}
+.darkmode img:active{
+width: 18px;
+}
+.dark {
+  background-color: #000000;
+  color: #fff;
+  }
+  .light {
+  background-color: rgba(218, 255, 33, 0.547);
+  }
+  
+  
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,11 +36,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
 @keyframes App-logo-spin {
